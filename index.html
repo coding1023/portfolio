@@ -10,29 +10,40 @@
 <link rel="stylesheet" href="bootstrap.css">
     
     <!-- Fonts and Icons -->
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Alegreya:ital,wght@0,500;1,400&family=Inter&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Give+You+Glory&display=swap" rel="stylesheet">
+
+
+
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital@1&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat+Alternates&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin="anonymous" />
     <script src="jquery-3.5.1.min.js"></script> 
    
 </head>
 <body>
-
-    <nav class="navbar navbar-expand-lg navbar-dark">
+<div class="introbg">
+    <nav class="navbar navbar-expand-lg  bg-transparent">
         
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarNav">
-          <ul class="navbar-nav">
-            <li class="nav-item">
-              <a class="nav-link" href="#home">Home <span class="sr-only">(current)</span></a>
+           <a class="logo pull-left" href="#"><img class="avatar" src="./pictures/avatar.png"></a>
+        <span class="name">Claudio Sapia</span>
+        
+     <span class="night-toggle" id="dayNight2"><span class="day-night-mode"><i class="fas fa-moon  mr-2 "></i></span>Toggle dark mode</span>
+          <ul class="navbar-nav ml-auto">
+                <li class="nav-item nav-link text-white mx-4">
+              <a class="projects nav-link  " href="#projects">Projects <span class="sr-only">(current)</span></a>
             </li>
-            <li class="nav-item">
+            <li class="nav-item nav-link mx-5">
               <a class="nav-link contact" href="#contact">Contact</a>
             </li>
-            <li class="nav-item">
-              <a class="nav-link projects" href="#">Github</a>
+            <li class="nav-item nav-link mx-5 ">
+              <a class="nav-link github" href="#">Github</a>
             </li>
             
           </ul>
@@ -40,27 +51,27 @@
       </nav>
 
 <!-- nav ends -->
-<div class="introsection">
-<div class="jumbotron-fluid bg-white introdiv">
-    <div class="container-fluid introcontainer ">
-
-        <h1 id="introtext1" class="display-3 text-dark ">Hi, I'm Claudio,</h1>
-   <h2 id="introtext2" class="introh2 text-dark ">A Junior Full-Stack Web Developer</h2>
+<div class="introsection ">
+<div class="jumbotron-fluid introdiv  ">
+    <div class="container-fluid introcontainer   ">
+        <h2 id="introtext1" ">Hi, I'm <span class="first-name"> Claudio</span></h2> <br>
+   <h2 id="introtext2" class="introh2  ">A Junior <span class="full-stack">Full-Stack </span> Web Developer</h2>
   </div>
-  
+   <a name="contact"> <div class="container-fluid introcontainer ">
+   <!-- <img width="250px" src="./pictures/avatar.png" alt="" srcset=""> -->
+   <br><br><br>  <p class="cont"><span class="emph">Email:</span> claudiosapia@gmail.com </p>
+     <p class="cont"><span class="emph"> Mobile:</span> +44 7707932552</p></a></div>
 </div>
+</div>
+<div class="jumbotron-fluid introdiv2  introbg2 ">
+ <button id="dayNight" >Toggle dark mode</button>
 
-<div class="jumbotron-fluid introdiv2  bg-warning">
-  <a name="contact"> <div class="container-fluid introcontainer ">
-   <img width="200px" src="./pictures/port-final.png" alt="" srcset="">
-   <br><br><br>  <p class="lead">Email: claudiosapia@gmail.com </p>
-     <p class="lead">Mobile: +44 7707932552</p></a></div>
   <div class="container-fluid introcontainer "></a>
     
-  <div class="row">
+  <div class="row  ">
  <div class="wds col-md-6">
  
-   <h3 class="display-3">My Skills</h3>
+   <h3>My Skills</h3>
    <br><br>
      <div class="col-xs-12 col-md-6">
           <p class="lead text-center">HTML</p>
@@ -129,22 +140,22 @@
         </div>
       </div>
       <br><br>
- <div class="col-md-6">
-<h3 class="display-3">About Me</h3>  
+ <div class="col-md-6 ">
+<h3 >About Me</h3>  
 <br><br>
- <p class="lead">I’m a hard working and dedicated Junior Full Stack Web Developer based out in Edinburgh.</p>
-  <p class="lead">
+ <p class="coverL">I’m a hard working and dedicated Junior Full Stack Web Developer based out in Edinburgh.</p>
+  <p class="coverL">
   I am motivated, enthusiastic and well organised, with a keen eye for creative and eye-catching design, I love to create user-friendly and efficient websites.</p>
-  <p class="lead">
-  I have knowledge of  HTML5, JavaScript, CSS, NodeJS, MongoDB, Mongoose, MySQL and of the popular project management methodologies such as Agile, Scrum, Kanban, Lean, XP, Spiral, Prototyping, Waterfall with knowledge of all stages of the development cycle.</p><p class="lead"> I have completed a  Full-Stack Developer Course (SCQF LEVEL 7) at IT Professional Training in Edinburgh, where I also worked on projects following SCRUM and waterfall SDLC methodologies to achieve the qualification.</p> 
+  <p class="coverL">
+  I have knowledge of  HTML5, JavaScript, CSS, NodeJS, MongoDB, Mongoose, MySQL and of the popular project management methodologies such as Agile, Scrum, Kanban, Lean, XP, Spiral, Prototyping, Waterfall with knowledge of all stages of the development cycle.</p><p class="coverL"> I have completed a  Full-Stack Developer Course (SCQF LEVEL 7) at IT Professional Training in Edinburgh, where I also worked on projects following SCRUM and waterfall SDLC methodologies to achieve the qualification.</p> 
 </div>
     </div>
 
 <br><br>
 <div class="row">
- <div class=" col-md-12">
-
-  <h3 class="display-3">My Projects</h3>
+ <div class="col-md-12">
+  <a name="projects"></a>
+  <h3 id="proj" name="projects" >My Projects</h3>
    <br>
     
   </div><!-- COL END-->
@@ -153,14 +164,14 @@
   <div class="row">
   <div class="col-md-6 img-wrapper">
 
-        <h1 id="text" >My Travel Blog</h1>
-<a href="https://staycation-blog.herokuapp.com/"><img class="preview-w"  src="./pictures/STAYC.jpg" alt="travel-blog"></a>
+        <h1 id="projects-title" >My Travel Blog</h1>
+<a href="https://staycation-blog.herokuapp.com/"><img src="./pictures/STAYC.jpg" alt="travel-blog"></a>
    
     </div><!-- col end -->
 
     <div class="col-md-6 img-wrapper">
-        <h1 id="text" >My e-commerce website</h1>
-<a href="https://ellnot.herokuapp.com/"><img  class="preview-w"  src="./pictures/ellnot.jpg" alt="e-commerce website"></a>
+        <h1 id="projects-title" >My e-commerce website</h1>
+<a href="https://ellnot.herokuapp.com/"><img    src="./pictures/ellnot.jpg" alt="e-commerce website"></a>
        
   </div>
   </div><!-- row end -->
@@ -168,7 +179,7 @@
 <div class="row">
     <div class="col-md-6">
       
-   <h4 id="text" >Node.js, Express, Bootstrap, Html5, Javascript,Jquery CSS, EJS, Mongoose, MongoDB</h1>     
+   <h1 id="skills-projects" >Node.js, Express, Bootstrap, Html5, Javascript,Jquery CSS, EJS, Mongoose, MongoDB</h1>     
 
 
 </div>
@@ -178,7 +189,7 @@
 
     <div class="col-md-6">
       
-  <h4 id="text" >Node.js, Express, Bootstrap, Html5, Javascript, jQuery CSS, EJS</h1>        
+  <h1 id="skills-projects" >Node.js, Express, Bootstrap, Html5, Javascript, jQuery CSS, EJS</h1>        
 
 
 </div>
@@ -191,14 +202,14 @@ NEW ROW OF 2 WEBSITE PREVIEWS -->
   <div class="row ">
   <div class="col-md-6 img-wrapper">
 
-        <h1 id="text" >Javascript Coding Challenge</h1>
-<a href="https://task10.herokuapp.com/"><img class="preview-w"  src="./pictures/tasks.jpg" alt="javascript-challenge"></a>
+        <h1 id="projects-title" >Javascript Coding Challenge</h1>
+<a href="https://task10.herokuapp.com/"><img src="./pictures/tasks.jpg" alt="javascript-challenge"></a>
    
     </div><!-- col end -->
 
     <div class="col-md-6 img-wrapper">
-        <h1 id="text" >Simon Game</h1>
-<a href="https://claudiosapia.github.io/Simon-Game/"><img  class="preview-w"  src="./pictures/simon-game.jpg" alt="simon-game"></a>
+        <h1 id="projects-title" >Simon Game</h1>
+<a href="https://claudiosapia.github.io/Simon-Game/"><img    src="./pictures/simon-game.jpg" alt="simon-game"></a>
        
   </div>
   </div><!-- row end -->
@@ -206,7 +217,7 @@ NEW ROW OF 2 WEBSITE PREVIEWS -->
 <div class="row">
     <div class="col-md-6">
       
-   <h4 id="text" > Html5, Bootstrap, Javascript, NodeJS, Express</h1>     
+   <h1 id="skills-projects" > Html5, Bootstrap, Javascript, NodeJS, Express</h1>     
 
 
 </div>
@@ -216,7 +227,7 @@ NEW ROW OF 2 WEBSITE PREVIEWS -->
 
     <div class="col-md-6">
       
-  <h4 id="text" >Html5, Bootstrap, Javascript</h1>        
+  <h1 id="skills-projects" >Html5, Bootstrap, Javascript</h1>        
 
 
 </div>
@@ -237,18 +248,18 @@ NEW ROW OF 2 WEBSITE PREVIEWS -->
 
 
 
-<footer class="text-dark bg-image";">
+<footer class=" footer";>
     <div class="container">
       <div class="row">
    <div class="col-4">
-    <div class="pr-xl-5"><a class="brand-2" href="/"><img class="logo-ft brand-logo-light" src="/public/img/logo.png" alt=""></a>
-   
-          </div>
+ 
+     <span class="night-toggle" id="dayNight2"><span class="day-night-mode"><i class="fas fa-moon fa-2x mr-3 mt-4"></i></span>Toggle dark mode</span>
+</span>
   </div>
       <div class="col-4">
     <p class="about-footer">Email: claudiosapia@gmail.com </p>
      <p class="about-footer">Mobile: +44 7707932552</p>
-    
+
     </div>
       </div>
     </div>
